@@ -3,57 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-    <img src="./images/idS24nBPU5_logos.png" alt="logo">
-    <button>Call for a FREE quote 1-866-926-0448</button>
-    <a href="https://borderbuddy.com/contact"></a> <a class="abutton" href="tel:1-866-926-0448">Call for a FREE quote 1-866-926-0448</a>
+    <link rel="stylesheet" href="./main.css">
+    <title>borderbuddy</title>
 </head>
 <body>
-    <div>
-        <h1>IMPORTING <br> AND EXPORTING <br> IS HARD <br><span id="h1"> We do the hard part for you.<br>Grab a free online quote now.</span></h1>
-        
+    <div class="header">
+        <!-- the header-->
+            <img class="logo" src="./images/idS24nBPU5_logos.png" alt="logo">
+        <section class="call button">
+            <button><a class="link" href="https://borderbuddy.com/contact">Call for a FREE quote 1-866-926-0448</a></button>
+        </section>
+         </header>
     </div>
     <div>
-        <p id="p1">I want to:</p>
-    </div> 
-    <span><button>import a vehicle</button>
-    <button>Import any item</button></span>
-    <div><h2>WHO ARE WE</h2>
-        <p>Border Buddy is a customs broker providing online solutions for <br>
+        <h1>IMPORTING<br>AND EXPORTING<br>IS HARD<br></h1>
+        <p id="prag1">We do the hard part for you.<br>Grab a free online quote now.</p>
+
+    </div>
+    <div >
+        <h3 id="want">I want to:</h3>
+        <button>import a vehicle</button>
+        <button>Import any item</button>
+
+    </div>
+    <div class="position">
+         <img class="cars" src="./images/vintage car.avif" alt="vintage cars">
+
+    </div>
+        <h2>WHO ARE WE</h2>
+         
+        <p>
+          Border Buddy is a customs broker providing online solutions for<br>
           anyone fed up with being buried in duty and tariff paperwork.
           We <br> simplify the cross-border retail experience with online
-          solutions <br> for both web-based businesses and shoppers.</p>
-          <img src="./images/vintage car.avif" alt="Vintage classic car">
+          solutions <br> for both web-based businesses and shoppers.
+        </p>
+        
+          
     </div>
     <div>
-        <h2>WHY DO I NEED CUSTOM BROKERS</h2>
-        <p>customs brokers help complete the paperwork to move your <br>
+        <h3 class="brokers">WHY DO I NEED CUSTOM BROKERS</h3>
+        <p class="customers">customers brokers help complete the paperwork to move your <br>
            goods from one country to another. The broker walks you through <br>
             the paperwork required at customs and ensures it is all filled before <br>
-            you get to the border making your trip faster and easier.
-        </p>
+            you get to the border making your trip faster and easier.</p>
+        
     </div>
-    <section class="formdiv">
-        <h2 class="duty">DUTY CALLS</h2>
-        <P>When duty calls, talk to your buddy. We’re ready with the answers
-        you need to speed up and <br> simplify the customs process.</P>
-        <form class="form">
-            <label for="name">Name*</label> <br>
-            <input type="text"> <br>
-            <label for="email">Email*</label> <br>
-            <input type="text"> <br>
-            <label for="phone number">phone number*</label> <br>
-            <input type="text"> <br>
-            <label for="Ask our experts">Ask our experts*</label> <br>
-            <textarea name="comments" id=""></textarea> <br>
-             <button type="submit">SUBMIT</button>
-        </section>
+    <div class="forms">
+        <h3 class="duty">DUTY CALLS</h3>
+        <P class="calls">When duty calls, talk to your buddy. We’re ready with the answers
+        you need to speed up and<br>simplify the customs process.</P>
+        <form>
+                <div class="group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="group">
+                    <label for="message">Ask our experts *</label>
+                    <textarea id="message" name="message" required></textarea>
 
+                </div>
+                <button class="submit" type="submit">SUBMIT</button>
+
+                <footer class="footer">
+
+       
+        </div>
+        <footer>
+            <img class="footer" src="./images/idSBLhUySe_logos.jpeg" alt="footer-logo">
+            <div class="copyright">© 2018 BorderBuddy. All rights reserved.
+            </div>
+        </footer>
     </div>
-    <footer>
-<img src="./images/idSBLhUySe_logos.jpeg" alt="">
-    </footer>
 </body>
-
 </html>

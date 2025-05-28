@@ -1,0 +1,174 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #d54d04;
+    color: white;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.call button:hover{
+    padding: 20px 40px;
+    border-radius: 12px;
+    background-color: white;
+    
+}
+.link{
+    color: #d54d04;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    
+}
+.logo{
+    width: 25%;
+    height: auto;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+#prag1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0%;
+}
+#want{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 8%;
+    font-weight: light;
+    margin-bottom: 2%;
+}
+button{
+    background-color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: #d54d04;
+    border-radius: 15%;
+    font-weight: 100%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+
+}
+.position{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: center;
+    float: right;
+  
+    
+    
+}
+.cars{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+    
+}
+    
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+
+.brokers{
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+    margin-top:12% ;
+}
+.customers{
+    margin-top: 0%;
+    margin-bottom: 7%;
+}
+.forms{ 
+    text-align: cent;
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 120px;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-bottom: 20%;
+
+}
+.duty{
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 3%;
+
+}
+.calls{
+    display:flex;
+    justify-content: center;
+}
+.group {
+    margin-bottom: 20px;
+}
+
+.group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+
+.group input,
+.group textarea {
+    width: 50%;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+    color: #333;
+    margin-left: 20%;
+}
+
+.group textarea {
+    height: 60px;
+    resize: vertical;
+}
+
+.submit{
+    background: white;
+    color: #E67E22;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin: 30px auto 0;
+}
+.footer{
+    width: 7%;
+    height: 100%;
+    border-radius: 15%;
+}
+.coyright{
+    display: flex;
+    align-items: end;
+    margin-left: 4%;
+}
